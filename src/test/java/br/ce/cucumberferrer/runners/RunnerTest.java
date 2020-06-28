@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features/alugar_filme.feature",
         glue = "br.ce.cucumberferrer.steps",
         plugin = {"pretty", "summary", "html:target/report-cucumber.html"},
-        snippets = CucumberOptions.SnippetType.CAMELCASE
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        dryRun = true
 )
 public class RunnerTest {
 
