@@ -1,6 +1,8 @@
 # teste-automacao
 Automação
 
+Selecionar o Runner desejado para executar as baterias de teste.
+
 Teste Selenium:\
 Substituir o caminho do Webdriver DRIVER_PATH de acordo com usado.
 
