@@ -1,4 +1,4 @@
-# teste-automatizado
+# teste-automacao
 Automação
 
 Teste Selenium:\
