@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "./src/test/resources/features/inserir_conta.feature",
         glue = "br.ce.cucumberferrer.steps",
-        plugin = {"pretty", "summary", "json:target/selenium-test.json"},
+        plugin = {"pretty", "summary", "json:target/selenium-test.json", "html:target/selenium-test.html"},
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class WebRunnerTest {
